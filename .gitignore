@@ -1,0 +1,14 @@
+#Local terraform directory for license and provider info
+#Terraform State and terraform lock files
+**/.terraform*
+
+#Macbook files
+*.DS_Store
+
+#Sensitive files
+*sensitive*
+
+#GCP Key data
+*.json
+
+

@@ -26,7 +26,7 @@ In this case the webservers are tagged "private_webserver" and the windows machi
 Below are screenshots to prove that everything works correctly
 
 The Firewall Rules:
-![Screenshot](./readme_images/Screen Shot 2025-09-08 at 20.43.47)
+![Screenshot](./readme_images/Screen%20Shot%202025-09-08%20at%2020.43.47)
 
 The VM instancees:
 ![Screenshot](./readme_images/Screen Shot 2025-09-08 at 20.45.05)

@@ -11,4 +11,5 @@
 #GCP Key data
 *.json
 
-
+#readme_images folder
+/readme_images*

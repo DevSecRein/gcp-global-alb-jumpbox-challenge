@@ -12,4 +12,4 @@
 *.json
 
 #readme_images folder
-/readme_images*
+#/readme_images*

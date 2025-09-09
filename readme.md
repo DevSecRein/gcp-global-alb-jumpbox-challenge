@@ -26,16 +26,16 @@ In this case the webservers are tagged "private_webserver" and the windows machi
 Below are screenshots to prove that everything works correctly
 
 The Firewall Rules:
-![Screenshot](/readmeimages/Screen%20Shot%202025-09-08%20at%2020.43.47)
+![Screenshot](/images/Screen%20Shot%202025-09-08%20at%2020.43.47)
 
 The VM instances:
-![Screenshot](/readmeimages/Screen%20Shot%202025-09-08%20at%2020.45.05)
+![Screenshot](/images/Screen%20Shot%202025-09-08%20at%2020.45.05)
 
 Note that there are no external IP addresses to the webservers. If the internal IP addresses are used outside of a GCP resource in the same VPC, it will just time out. And thanks to the source tag policy, even in the same VPC, if a resource is spun up and does not have the source tag, it will also result in an error.
 
 Also note that the firewall policies have only been given to to resources tagged with the policies source tag and is filtered by the source tag
 
 But once the webservers are accessed from the the rdp jumpbox, they are fully accessible:
-![Screenshot](/readmeimages/Screen%20Shot%202025-09-08%20at%2020.54.31%20(2))
-![Screenshot](/readmeimages/Screen%20Shot%202025-09-08%20at%2020.56.09%20(2))
-![Screenshot](/readmeimages/Screen%20Shot%202025-09-08%20at%2020.59.15%20(2))
+![Screenshot](/images/Screen%20Shot%202025-09-08%20at%2020.54.31%20(2))
+![Screenshot](/images/Screen%20Shot%202025-09-08%20at%2020.56.09%20(2))
+![Screenshot](/images/Screen%20Shot%202025-09-08%20at%2020.59.15%20(2))
